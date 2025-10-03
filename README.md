@@ -1,5 +1,5 @@
 # WebDev-MSE1
-Adarsh Katiyar 
-Abhishek Sundriyal
-Akanksha Devi
+Adarsh Katiyar,
+Abhishek Sundriyal,
+Akanksha Devi,
 Anika 
