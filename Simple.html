@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">CareConnect+</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-blue-200">Home</a></li>
+                    <li><a href="#services" class="hover:text-blue-200">Services</a></li>
+                    <li><a href="#about" class="hover:text-blue-200">About</a></li>
+                    <li><a href="#contact" class="hover:text-blue-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gray-100 py-20 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Welcome to CareConnect+</h2>
+            <p class="text-lg mb-6">Providing compassionate and quality healthcare for all.</p>
+            <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">General Checkups</h3>
+                    <p>Comprehensive health assessments to keep you in top shape.</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">Specialist Care</h3>
+                    <p>Expert consultations in cardiology, neurology, and more.</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">Emergency Services</h3>
+                    <p>24/7 emergency care for urgent medical needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">About Us</h2>
+            <p class="text-lg max-w-2xl mx-auto">CareConnect+ is dedicated to providing top-notch medical care with a team of experienced professionals. Our mission is to ensure every patient receives personalized and compassionate treatment.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+            <p class="text-lg mb-4">Reach out to us for appointments or inquiries.</p>
+            <div class="max-w-md mx-auto">
+                <input type="text" placeholder="Name" class="w-full p-3 mb-4 border rounded-lg">
+                <input type="email" placeholder="Email" class="w-full p-3 mb-4 border rounded-lg">
+                <textarea placeholder="Message" class="w-full p-3 mb-4 border rounded-lg" rows="4"></textarea>
+                <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white p-4 text-center">
+        <p>&copy; 2025 CareConnect+. All rights reserved.</p>
+    </footer>
+</body>
+</html>
